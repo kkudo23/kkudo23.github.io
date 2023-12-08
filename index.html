@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Coming Soon - My Website</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Your Resume</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <div class="container">
-        <h1>Something Awesome is Coming Soon!</h1>
-        <p>Stay tuned for our new website full of exciting features.</p>
-        <!-- Optional: Progress Indicator -->
-        <!-- Optional: Progress Indicator -->
-        <div class="progress-container">
-            <div class="progress-bar" id="myBar">60%</div>
-        </div>
-        <script>
-            function move() {
-                var elem = document.getElementById("myBar");
-                var width = 1;
-                var id = setInterval(frame, 10);
-                function frame() {
-                    if (width >= 60) { // Update this value as needed
-                        clearInterval(id);
-                    } else {
-                        width++;
-                        elem.style.width = width + '%';
-                        elem.innerHTML = width + '%';
-                    }
-                }
-            }
-            window.onload = move; // Call the function when the page loads
-        </script>
+    <header>
+        <h1>Your Name</h1>
+        <p>Job Title or Professional Headline</p>
+    </header>
 
-        <!-- Optional: Countdown Timer -->
-        <div class="contact-info">
-            <p>Contact me at: <a href="mailto:ken@kenkudo.io">ken@kenkudo.io</a></p>
-            <!-- Social Media Links -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief introduction or professional summary.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <!-- Repeat this block for each job -->
+        <div class="job">
+            <h3>Job Title at Company</h3>
+            <p class="dates">Start Date - End Date</p>
+            <ul>
+                <li>Job responsibility or achievement 1</li>
+                <li>Job responsibility or achievement 2</li>
+                <!-- More items as needed -->
+            </ul>
         </div>
-        <!-- Optional: Email Signup Form -->
-    </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <!-- Repeat this block for each educational institution -->
+        <div class="education">
+            <h3>Degree, University/College</h3>
+            <p class="dates">Graduation Year</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <!-- More skills as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact information or additional links</p>
+    </footer>
 </body>
 </html>
