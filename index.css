@@ -15,3 +15,18 @@ h1 {
 .contact-info a {
     color: #0066ff; /* Example link color */
 }
+
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.progress-bar {
+    width: 1%; /* Initial width */
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* Center the text inside the bar */
+    line-height: 30px; /* Center the text vertically */
+    color: white;
+}
+
