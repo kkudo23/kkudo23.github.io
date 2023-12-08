@@ -1,36 +1,52 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+}
+
+header p {
+    color: #666;
+}
+
+section h2 {
+    color: #333;
+}
+
+.job, .education {
+    margin-bottom: 15px;
+}
+
+.job h3, .education h3 {
+    margin-top: 0;
+}
+
+.dates {
+    color: #666;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+footer {
     text-align: center;
-    background: #f4f4f4; /* Example background color */
+    padding: 20px;
+    background-color: #f4f4f4;
 }
-
-.container {
-    margin-top: 100px;
-}
-
-h1 {
-    color: #333; /* Example headline color */
-}
-
-.contact-info a {
-    color: #0066ff; /* Example link color */
-}
-
-.progress-container {
-    width: 100%;
-    background-color: #ddd;
-    border-radius: 20px; /* Rounded corners for container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
-}
-
-.progress-bar {
-    width: 60%; /* Set to your current progress */
-    height: 30px;
-    line-height: 30px; /* Center text vertically */
-    color: white;
-    text-align: center; /* Center text horizontally */
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Colorful gradient */
-    border-radius: 20px; /* Rounded corners for bar */
-    transition: width 0.4s ease; /* Smooth transition for width changes */
-}
-
