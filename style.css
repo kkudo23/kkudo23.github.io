@@ -35,31 +35,31 @@ section h2 {
     margin-bottom: 10px;
 }
 
-.education, .job {
-    margin-bottom: 15px;
+.job {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    color: #20232a;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.company-name {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.location {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 5px;
 }
 
 .dates {
     font-style: italic;
     color: #666;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 5px;
-    padding-left: 20px;
-    position: relative;
-}
-
-ul li::before {
-    content: '▹';
-    color: #61dafb;
-    position: absolute;
-    left: 0;
+    margin-bottom: 10px;
 }
 
 footer {
