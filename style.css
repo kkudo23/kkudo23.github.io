@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -8,65 +8,70 @@ body {
 }
 
 header {
-    background-color: #20232a;
-    color: #61dafb;
+    background-color: #1a1a1a;
+    color: #4b8bec;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.8em;
+    font-weight: normal;
 }
 
 header p {
     margin: 5px 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    color: #ddd;
 }
 
 section {
     padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
 }
 
 section h2 {
-    color: #20232a;
+    color: #333;
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4b8bec;
+    display: inline-block;
 }
 
-.job {
+.job, .education {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 4px solid #4b8bec;
     margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .job-title {
-    color: #20232a;
-    font-size: 1.5em;
+    color: #333;
+    font-size: 1.4em;
     margin-top: 0;
 }
 
-.company-name {
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.location {
+.company-name, .location {
     color: #666;
-    font-style: italic;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 .dates {
     font-style: italic;
-    color: #666;
+    color: #999;
     margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #20232a;
-    color: #fff;
+    background-color: #1a1a1a;
+    color: #ddd;
 }
 
 footer p {
@@ -75,7 +80,7 @@ footer p {
 }
 
 footer a {
-    color: #61dafb;
+    color: #4b8bec;
     text-decoration: none;
 }
 
@@ -86,5 +91,10 @@ footer a:hover {
 @media screen and (max-width: 768px) {
     section {
         padding: 20px;
+    }
+
+    .job, .education {
+        padding: 15px;
+        border-left: 3px solid #4b8bec;
     }
 }
