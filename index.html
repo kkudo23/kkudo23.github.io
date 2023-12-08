@@ -13,6 +13,23 @@
         <div class="progress-container">
             <div class="progress-bar" id="myBar">60%</div>
         </div>
+        <script>
+            function move() {
+                var elem = document.getElementById("myBar");
+                var width = 1;
+                var id = setInterval(frame, 10);
+                function frame() {
+                    if (width >= 60) { // Update this value as needed
+                        clearInterval(id);
+                    } else {
+                        width++;
+                        elem.style.width = width + '%';
+                        elem.innerHTML = width + '%';
+                    }
+                }
+            }
+            window.onload = move; // Call the function when the page loads
+        </script>
 
         <!-- Optional: Countdown Timer -->
         <div class="contact-info">
