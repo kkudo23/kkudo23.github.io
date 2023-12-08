@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4; /* Example background color */
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #333; /* Example headline color */
+}
+
+.contact-info a {
+    color: #0066ff; /* Example link color */
+}
