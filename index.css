@@ -19,14 +19,18 @@ h1 {
 .progress-container {
     width: 100%;
     background-color: #ddd;
+    border-radius: 20px; /* Rounded corners for container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
 }
 
 .progress-bar {
-    width: 1%; /* Initial width */
+    width: 60%; /* Set to your current progress */
     height: 30px;
-    background-color: #4CAF50;
-    text-align: center; /* Center the text inside the bar */
-    line-height: 30px; /* Center the text vertically */
+    line-height: 30px; /* Center text vertically */
     color: white;
+    text-align: center; /* Center text horizontally */
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Colorful gradient */
+    border-radius: 20px; /* Rounded corners for bar */
+    transition: width 0.4s ease; /* Smooth transition for width changes */
 }
 
