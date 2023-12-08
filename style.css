@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    color: #20232a;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.education, .job {
+    margin-bottom: 15px;
+}
+
+.dates {
+    font-style: italic;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li::before {
+    content: '▹';
+    color: #61dafb;
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #20232a;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+}
