@@ -98,3 +98,30 @@ footer a:hover {
         border-left: 3px solid #4b8bec;
     }
 }
+
+
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.technical-skills, .soft-skills {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.technical-skills h3, .soft-skills h3 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+    }
+    
+    .technical-skills, .soft-skills {
+        margin: 10px 0;
+    }
+}
